@@ -5,14 +5,14 @@ from telethon.tl.functions.messages import GetHistoryRequest
 # =======================
 # তোমার API ID & HASH
 # =======================
-api_id = 24064189
-api_hash = "a1ee937280c95f1e8a1d7d8b43451936"
+api_id = ---------
+api_hash = "----------"
 
 # =======================
 # সোর্স এবং ডেস্ট গ্রুপ আইডি
 # =======================
-SOURCE_GROUP_ID = -1002987555234   # সোর্স গ্রুপ
-DEST_GROUP_ID   = -1002993735652   # ডেস্টিনেশন গ্রুপ
+SOURCE_GROUP_ID = -------   # সোর্স গ্রুপ
+DEST_GROUP_ID   =-------   # ডেস্টিনেশন গ্রুপ
 
 # =======================
 # TelegramClient তৈরি
@@ -80,3 +80,4 @@ async def main():
 # =======================
 with client:
     client.loop.run_until_complete(main())
+
